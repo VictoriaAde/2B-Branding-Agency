@@ -157,7 +157,7 @@ p {
 }
 .form_inline label {
 	color: #85899f;
-	font-size: 0.9rem;
+	font-size: 1rem;
 	font-weight: 600;
 	line-height: 120%;
 	margin: 5px 0 5px 0;
@@ -173,8 +173,8 @@ p {
 	border: none;
 	border-bottom: 1px solid #0079b7;
 	color: #85899f;
-	margin: 0 14px 0 18px;
-	font-size: 0.8rem;
+	margin: 0 1px 0 18px;
+	font-size: .8rem;
 }
 .form_inline input,
 textarea:active {
@@ -185,7 +185,7 @@ textarea:active {
 ::-webkit-input-placeholder {
 	color: #0079b7;
 	font-weight: 600;
-	font-size: 0.2rem;
+	font-size: .7rem;
 }
 .form_button {
 	background: #0079b7;
@@ -285,11 +285,15 @@ textarea:active {
 
 	.form_inline input {
 		margin: 10px 0;
+		font-size: 1rem;
 	}
 
 	.form_inline {
 		flex-direction: column;
 		align-items: stretch;
+	}
+	::-webkit-input-placeholder {
+		font-size: .8rem;
 	}
 	.section_four {
 		padding: 5em 0;
