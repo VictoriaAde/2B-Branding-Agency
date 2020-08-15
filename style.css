@@ -110,32 +110,26 @@ p {
 	margin-top: 3em;
 }
 .ahora {
-	margin-top: 7.5em;
+	margin-top: 6.5em;
 	text-align: right;
 }
 .tick_it {
 	margin-top: 7em;
 }
-.BankMe p {
-	padding-left: 13em;
-}
+
 .tick_it p {
-	padding-right: 18em;
+	padding-right: 25em;
 }
 .ahora p {
-	padding-left: 15em;
-}
-
-.ewalle p {
-	padding-right: 16em;
+	padding-left: 24em;
 }
 
 .section_four_tick_it_img {
-	width: 530px;
+	width: 490px;
 	height: 320px;
 }
 .section_four_ahora_img {
-	width: 530px;
+	width: 490px;
 	height: 320px;
 }
 .section_four_ewalle_img {
