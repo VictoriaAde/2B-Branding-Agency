@@ -22,7 +22,7 @@ h6 {
 p {
 	color: #85899f;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 0.7rem;
+	font-size: 0.8rem;
 }
 .section_h2 {
 	font-size: 1.3rem;
@@ -230,8 +230,7 @@ textarea:active {
 		margin: 0.7em 0;
 	}
 	.section_two_readmore {
-		font-size: 0.6em;
-
+		font-size: 0.8em;
 	}
 	.section_three_box_con_mobile {
 		display: block;
