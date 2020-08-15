@@ -33,12 +33,13 @@ p {
 }
 /*---------- section_one ----------*/
 .menu {
-	padding: .9em .2em !important;
+	padding: 1em .2em !important;
 	background: #0079b7 !important;
 	position: absolute;
-	top: -14px;
+	top: -5px;
 	left: 91%;
 	border-radius: 0 !important;
+	text-align: center;
 }
 .section_one {
 	text-align: center;
@@ -227,6 +228,10 @@ textarea:active {
 	.section_h2 {
 		font-size: 1.1rem;
 		margin: 0.7em 0;
+	}
+	.section_two_readmore {
+		font-size: 0.6em;
+
 	}
 	.section_three_box_con_mobile {
 		display: block;
