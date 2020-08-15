@@ -1,0 +1,337 @@
+/* import googlefont */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Open+Sans&display=swap');
+
+/* Base styles */
+html body {
+	background: #06131a;
+}
+.container_body {
+	background: #000020;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #fff;
+	font-family: 'DM Serif Display', serif;
+}
+
+p {
+	color: #85899f;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.7rem;
+}
+.section_h2 {
+	font-size: 1.3rem;
+}
+.section_h3 {
+	font-size: 1.1rem;
+	line-height: 33px;
+}
+/*---------- section_one ----------*/
+.menu {
+	padding: .9em .2em !important;
+	background: #0079b7 !important;
+	position: absolute;
+	top: -14px;
+	left: 91%;
+	border-radius: 0 !important;
+}
+.section_one {
+	text-align: center;
+}
+.section_one_img_div {
+	padding-bottom: -10em;
+}
+.section_one_img {
+	height: 300px;
+}
+.section_one_des {
+	margin: 2em auto;
+}
+.section_one_p {
+	margin: 0.5em 0;
+}
+
+/*------------- section_two ------------*/
+.section_two {
+	text-align: center;
+}
+.section_two_des {
+	margin: 2.5em 0 0;
+	text-align: left;
+}
+.section_two_readmore {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 0.9em;
+	line-height: 120%;
+	color: #0079b7;
+	border-bottom: 0.5px solid #0079b7;
+}
+.section_two_readmore img {
+	margin-left: 0.8;
+}
+.section_two_readmore:hover {
+	text-decoration: none;
+}
+
+/*----------- section_three --------*/
+.section_three {
+	text-align: center;
+	margin-top: 6em;
+}
+.section_three_box_con_mobile {
+	display: none;
+}
+.section_three_box {
+	width: 172px;
+	max-width: 172px;
+	height: 253px;
+	background: #575454;
+	margin: 1em 0.5em 0;
+}
+.section_three_des {
+	margin-top: 10em;
+	text-align: right;
+}
+
+/*----------- section_four --------*/
+.section_four {
+	padding: 5em 0;
+}
+
+.BankMe {
+	text-align: right;
+	padding: 0 2em 0 0;
+	margin-top: 3em;
+}
+.ahora {
+	margin-top: 7.5em;
+	text-align: right;
+}
+.tick_it {
+	margin-top: 7em;
+}
+.BankMe p {
+	padding-left: 13em;
+}
+.tick_it p {
+	padding-right: 18em;
+}
+.ahora p {
+	padding-left: 15em;
+}
+
+.ewalle p {
+	padding-right: 16em;
+}
+
+.section_four_tick_it_img {
+	width: 530px;
+	height: 320px;
+}
+.section_four_ahora_img {
+	width: 530px;
+	height: 320px;
+}
+.section_four_ewalle_img {
+	width: 300px;
+	height: 450px;
+}
+.section_four_BankMe_img {
+	width: 300px;
+	height: 450px;
+}
+/*----------- footer ---------*/
+.footer::before {
+	background: #06131a;
+}
+.footer {
+	background: #06131a;
+	padding: 3em 0;
+}
+.form_inline {
+	display: flex;
+	flex-flow: wrap;
+	font-family: 'Open Sans', sans-serif;
+	color: #85899f;
+	background: #06131a !important;
+}
+.form_inline label {
+	color: #85899f;
+	font-size: 0.9rem;
+	font-weight: 600;
+	line-height: 120%;
+	margin: 5px 0 5px 0;
+}
+.message_label {
+	padding-top: 1em;
+}
+#message {
+	padding-top: 1em;
+}
+.form_inline input {
+	background: #06131a !important;
+	border: none;
+	border-bottom: 1px solid #0079b7;
+	color: #85899f;
+	margin: 0 14px 0 18px;
+	font-size: 0.8rem;
+}
+.form_inline input,
+textarea:active {
+	outline: none;
+	background: #06131a !important;
+}
+
+::-webkit-input-placeholder {
+	color: #0079b7;
+	font-weight: 600;
+	font-size: 0.2rem;
+}
+.form_button {
+	background: #0079b7;
+	border-radius: 2px;
+	color: #fff6fe;
+	padding: 0.3em 2.4em;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	cursor: pointer;
+	margin-top: 1em;
+}
+.form_button:hover {
+	background: #007ab7be;
+	color: #fff6fe;
+	text-decoration: none;
+	transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out,
+		box-shadow .15s ease-in-out;
+}
+
+.copyright {
+	margin-top: 5em;
+}
+
+/* 
+.
+.
+.
+.
+.
+. 
+*/
+
+/* Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) {
+	.menu {
+		left: 87%;
+	}
+	.section_h2 {
+		font-size: 1.1rem;
+		margin: 0.7em 0;
+	}
+	.section_three_box_con_mobile {
+		display: block;
+		text-align: center;
+	}
+	.section_three_box_con {
+		display: none;
+	}
+	.BankMe p {
+		padding: 0 1em !important;
+	}
+	.tick_it p {
+		padding: 0 1em !important;
+	}
+	.ahora p {
+		padding: 0 1em !important;
+	}
+
+	.ewalle p {
+		padding: 0 1em !important;
+	}
+	.section_four_tick_it_img {
+		width: 300px;
+		height: 200px;
+	}
+	.section_four_ahora_img {
+		width: 300px;
+		height: 200px;
+	}
+	.section_four_ewalle_img {
+		width: 270px;
+		height: 400px;
+	}
+	.section_four_BankMe_img {
+		width: 270px;
+		height: 400px;
+	}
+}
+
+/* Medium devices (tablets, 768px and down) */
+@media (max-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and down) */
+@media (max-width: 992px) {
+	.section_two_des {
+		margin: 0 0 0;
+	}
+	.section_two_des {
+		text-align: center;
+	}
+	.section_three_des {
+		margin-top: 1em;
+		text-align: center;
+	}
+
+	.form_inline input {
+		margin: 10px 0;
+	}
+
+	.form_inline {
+		flex-direction: column;
+		align-items: stretch;
+	}
+	.section_four {
+		padding: 5em 0;
+		text-align: center;
+	}
+	.ewalle {
+		margin-top: 1em;
+	}
+
+	.BankMe {
+		text-align: center;
+		padding: 0;
+		margin-top: 2em;
+	}
+	.ahora {
+		margin-top: 2em;
+		text-align: center;
+	}
+	.tick_it {
+		margin-top: 2em;
+	}
+	.BankMe p {
+		padding: 0 8em;
+	}
+	.tick_it p {
+		padding: 0 8em;
+	}
+	.ahora p {
+		padding: 0 8em;
+	}
+
+	.ewalle p {
+		padding: 0 8em;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
