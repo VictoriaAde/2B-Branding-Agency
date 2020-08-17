@@ -28,7 +28,7 @@ p {
 	font-size: 1.8rem;
 }
 .section_h3 {
-	font-size: 1.1rem;
+	font-size: 1.5rem;
 	line-height: 33px;
 }
 /*---------- section_one ----------*/
@@ -229,7 +229,7 @@ textarea:active {
 		left: 87%;
 	}
 	.section_h2 {
-		font-size: 1.5rem;
+		/* font-size: 1.5rem; */
 		margin: 0.7em 0;
 	}
 	.section_two_readmore {
