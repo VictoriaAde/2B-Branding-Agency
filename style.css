@@ -25,7 +25,7 @@ p {
 	font-size: 0.8rem;
 }
 .section_h2 {
-	font-size: 1.3rem;
+	font-size: 1.7rem;
 }
 .section_h3 {
 	font-size: 1.1rem;
@@ -65,13 +65,16 @@ p {
 	margin: 2.5em 0 0;
 	text-align: left;
 }
+.section_two_readmore_para{
+	border-bottom: 0.5px solid #0079b7;
+	display: inline;
+}
 .section_two_readmore {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	font-size: 0.9em;
 	line-height: 120%;
 	color: #0079b7;
-	border-bottom: 0.5px solid #0079b7;
 }
 .section_two_readmore img {
 	margin-left: 0.8;
@@ -226,7 +229,7 @@ textarea:active {
 		left: 87%;
 	}
 	.section_h2 {
-		font-size: 1.1rem;
+		font-size: 1.3rem;
 		margin: 0.7em 0;
 	}
 	.section_two_readmore {
