@@ -103,11 +103,17 @@ p {
 	transform: translateY(-48%);
 	width: 100vh;
 	background: #000020;
-	padding: 4em -3em !important;
 }
 p.menu_p {
-	font-size: 3rem;
+	font-size: 4rem;
 	color: #fff;
+	padding: 0 2em;
+	text-align: center;
+	margin: -1.4em 0 0 0;
+}
+p.menu_p a{
+	text-decoration: none;
+	border-bottom: solid 1px #fff;
 }
 
 /*---------- section_one ----------*/
@@ -364,7 +370,7 @@ textarea:active {
 		margin: 1.3em 0 0 1.4em;
 	}
 	.menu_con.responsive {
-		padding: 11em 3em !important;
+		padding: 10em 2em !important;
 	}
 	.menu_con {
 		transform: translateY(-95%);
@@ -379,6 +385,12 @@ textarea:active {
 	}
 	p.menu_p {
 		font-size: 2rem;
+	}
+	p.menu_p {
+		font-size: 2rem;
+		color: #fff;
+		padding: 0 0 0;
+		text-align: center;
 	}
 	.section_h2 {
 		font-size: 1.9rem;
