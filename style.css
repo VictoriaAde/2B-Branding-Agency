@@ -373,7 +373,7 @@ textarea:active {
 		padding: 10em 2em !important;
 	}
 	.menu_con {
-		transform: translateY(-95%);
+		transform: translateY(-279%);
 	}
 	.menu_btn {
 		width: 68px;
@@ -387,7 +387,7 @@ textarea:active {
 		font-size: 2rem;
 	}
 	p.menu_p {
-		font-size: 2rem;
+		font-size: 2rem !important;
 		color: #fff;
 		padding: 0 0 0;
 		text-align: center;
@@ -452,6 +452,12 @@ textarea:active {
 
 /* Large devices (desktops, 992px and down) */
 @media (max-width: 992px) {
+	p.menu_p {
+		font-size: 3rem;
+		color: #fff;
+		padding: 0 0 0;
+		text-align: center;
+	}
 	.section_two_des {
 		margin: 0 0 0;
 	}
