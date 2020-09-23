@@ -7,13 +7,15 @@
 *:before {
 	box-sizing: border-box;
 }
-html body {
-	background: #06131a;
+ /* body {
+	background: #000012;
+}  */
+.container-body {  
+	background: #000012;
 }
-.container_body {
-	background: #000020;
+.fluid-container {
+	padding: 0 7em;
 }
-
 h1,
 h2,
 h3,
@@ -40,16 +42,17 @@ p {
 
 .nav_menu {
 	position: fixed;
+	top: 0;
 	width: 100%;
 	height: 100px;
 	display: flex;
 	justify-content: space-between;
 	padding: 0 0;
-	background: #000020;
+	background: #000012;
 	z-index: 10;
 }
 .menu {
-	margin: 0 6.5em 0 0;
+	margin: 0 6em 0 0;
 }
 .logo {
 	width: 43px;
@@ -111,7 +114,7 @@ p.menu_p {
 	text-align: center;
 	margin: -1.4em 0 0 0;
 }
-p.menu_p a{
+p.menu_p a {
 	text-decoration: none;
 	border-bottom: solid 1px #fff;
 }
@@ -121,34 +124,38 @@ p.menu_p a{
 .section_one {
 	padding-top: 7em;
 	text-align: center;
+	/* background: url(./images/illustration_project_1\ 1.png); */
 }
 .section_one_img_div {
 	padding-bottom: -10em;
 }
-.section_one_img {
-	width: 384px;
-	height: 384px;
-}
-
+/* .section_one_img {
+	height: 600px;
+	width: 900px;
+	left: 263px;
+	top: 8px;
+	border-radius: 0px;
+} */
+/* 
 .section_one_des {
 	margin: 2em auto;
-}
+} */
 .section_one_p {
 	margin: 0.5em 0;
 }
 
 /*------------- section_two ------------*/
 .section_two {
-	text-align: center;
+	/* text-align: center; */
 }
 .section_two_des {
 	margin: 3em 0 0;
 	text-align: left;
 }
-.section_two_img {
+/* .section_two_img {
 	width: 77%;
 	height: 406px;
-}
+} */
 .section_two_readmore_para {
 	border-bottom: 0.5px solid #0079b7;
 	display: inline;
@@ -178,7 +185,6 @@ p.menu_p a{
 	top: -27%;
 	right: 75%;
 }
-
 .section_three_box_con {
 	padding: 0 !important;
 }
@@ -223,7 +229,6 @@ p.menu_p a{
 .section_four {
 	padding: 5em 0;
 }
-
 .BankMe {
 	text-align: right;
 	padding: 0 2em 0 0;
@@ -241,7 +246,6 @@ p.menu_p a{
 .tick_it {
 	margin-top: 7em;
 }
-
 .tick_it p {
 	padding-right: 20em;
 	font-size: .9rem;
@@ -278,9 +282,10 @@ p.menu_p a{
 .footer::before {
 	background: #06131a;
 }
-.footer {
+.footer-content {
 	background: #06131a;
 	padding: 3em 0;
+	width: 100%;
 }
 .form_inline {
 	display: flex;
