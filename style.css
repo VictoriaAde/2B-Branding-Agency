@@ -7,10 +7,10 @@
 *:before {
 	box-sizing: border-box;
 }
- /* body {
+/* body {
 	background: #000012;
 }  */
-.container-body {  
+.container-body {
 	background: #000012;
 }
 .fluid-container {
@@ -124,18 +124,13 @@ p.menu_p a {
 .section_one {
 	padding-top: 7em;
 	text-align: center;
-	/* background: url(./images/illustration_project_1\ 1.png); */
 }
 .section_one_img_div {
 	padding-bottom: -10em;
 }
-/* .section_one_img {
-	height: 600px;
-	width: 900px;
-	left: 263px;
-	top: 8px;
-	border-radius: 0px;
-} */
+.section_one_img {
+	width: 100%;
+}
 /* 
 .section_one_des {
 	margin: 2em auto;
@@ -145,17 +140,13 @@ p.menu_p a {
 }
 
 /*------------- section_two ------------*/
-.section_two {
-	/* text-align: center; */
-}
 .section_two_des {
 	margin: 3em 0 0;
-	text-align: left;
+	text-align: justify;
 }
-/* .section_two_img {
-	width: 77%;
-	height: 406px;
-} */
+.section_two_img {
+	width: 100%;
+}
 .section_two_readmore_para {
 	border-bottom: 0.5px solid #0079b7;
 	display: inline;
@@ -176,7 +167,6 @@ p.menu_p a {
 
 /*----------- section_three --------*/
 .section_three {
-	text-align: center;
 	margin-top: 6em;
 	position: relative;
 }
@@ -200,7 +190,7 @@ p.menu_p a {
 }
 .section_three_des {
 	margin-top: 10em;
-	text-align: right;
+	text-align: justify;
 	padding: 0 !important;
 }
 .section_three_btn {
@@ -263,28 +253,35 @@ p.menu_p a {
 	padding-left: 3em;
 }
 .section_four_tick_it_img {
-	width: 580px;
-	height: 410px;
+	/* width: 580px;
+	height: 410px; */
+	width: 95%;
 }
 .section_four_ahora_img {
-	width: 580px;
-	height: 410px;
+	/* width: 580px;
+	height: 410px; */
+	width: 100%;
 }
 .section_four_ewalle_img {
-	width: 379px;
-	height: 582px;
+	/* width: 379px;
+	height: 582px; */
+	width: 88%;
 }
 .section_four_BankMe_img {
-	width: 379px;
-	height: 582px;
+	/* width: 379px;
+	height: 582px; */
+	width: 95%;
 }
 /*----------- footer ---------*/
 .footer::before {
 	background: #06131a;
 }
-.footer-content {
+#footer {
 	background: #06131a;
-	padding: 3em 0;
+}
+.footer-content {
+	text-align: center;
+	padding: 4.5em 10.625em;
 	width: 100%;
 }
 .form_inline {
@@ -402,12 +399,10 @@ textarea:active {
 		margin: 0.7em 0;
 	}
 	.section_one_img {
-		width: initial;
-		height: 300px;
+		width: none;
 	}
 	.section_two_img {
-		width: initial;
-		height: 300px;
+		width: none;
 	}
 	.section_two_readmore {
 		font-size: 0.9rem;
@@ -434,25 +429,41 @@ textarea:active {
 		padding: 0 1em !important;
 	}
 	.section_four_tick_it_img {
-		width: 300px;
-		height: 200px;
+		/* width: 300px;
+		height: 200px; */
+		width: 95%;
 	}
 	.section_four_ahora_img {
-		width: 300px;
-		height: 200px;
+		/* width: 300px;
+		height: 200px; */
+		width: 100%;
 	}
 	.section_four_ewalle_img {
-		width: 270px;
-		height: 400px;
+		/* width: 270px;
+		height: 400px; */
+		width: 88%;
 	}
 	.section_four_BankMe_img {
-		width: 270px;
-		height: 400px;
+		/* width: 270px;
+		height: 400px; */
+		width: 95%;
 	}
 }
 
 /* Medium devices (tablets, 768px and down) */
 @media (max-width: 768px) {
+	.fluid-container {
+		padding: 0 3em;
+	}
+	.menu {
+		margin: 0 2em 0 0;
+	}
+	.logo {
+		margin: 1.3em 0 0 3em;
+	}
+	.footer-content {
+		padding: 4.5em 2em;
+	}
 }
 
 /* Large devices (desktops, 992px and down) */
@@ -476,14 +487,13 @@ textarea:active {
 	.section_three_dot_img {
 		display: none;
 	}
-	.form_inline input {
-		margin: 10px 0;
-		font-size: 1rem;
-	}
 
 	.form_inline {
 		flex-direction: column;
 		align-items: stretch;
+	}
+	.form_inline label {
+		margin: 11px 0 5px 0;
 	}
 	::-webkit-input-placeholder {
 		font-size: .8rem;
@@ -520,6 +530,18 @@ textarea:active {
 
 	.ewalle p {
 		padding: 0 8em;
+	}
+	.fluid-container {
+		padding: 0 4em;
+	}
+	.menu {
+		margin: 0 2em 0 0;
+	}
+	.logo {
+		margin: 1.3em 0 0 3em;
+	}
+	.footer-content {
+		padding: 4.5em 2em;
 	}
 }
 
