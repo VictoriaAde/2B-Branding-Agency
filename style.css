@@ -140,12 +140,19 @@ p.menu_p a {
 }
 
 /*------------- section_two ------------*/
+.section_two{
+	margin-top: 10em;
+}
 .section_two_des {
 	margin: 3em 0 0;
 	text-align: justify;
 }
 .section_two_img {
 	width: 100%;
+}
+.long-dots{
+	position: absolute;
+	left: 85%;
 }
 .section_two_readmore_para {
 	border-bottom: 0.5px solid #0079b7;
@@ -191,8 +198,11 @@ p.menu_p a {
 .section_three_des {
 	margin-top: 10em;
 	text-align: justify;
-	padding: 0 !important;
+	padding: 0;
 }
+/* a .section_three_btn{
+	margin-right: left;
+} */
 .section_three_btn {
 	font-size: 14px;
 	background: #0079b7;
@@ -208,6 +218,7 @@ p.menu_p a {
 	line-height: 28px;
 	letter-spacing: 0.01em;
 	padding-top: 4px;
+	margin: 3em 0 0 12.25em;
 }
 .section_three_btn:hover {
 	background: #007ab7be;
@@ -333,7 +344,7 @@ textarea:active {
 	text-decoration: none;
 	font-size: 16px;
 	cursor: pointer;
-	margin-top: 1em;
+	margin-top: 3.625em;
 	padding-top: 6px;
 }
 .form_button:hover {
