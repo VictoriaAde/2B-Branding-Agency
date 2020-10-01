@@ -14,27 +14,33 @@
 	<title>2B Branding Agency</title>
 </head>
 
-<body>
+<body class="wrapper">
 	<!-- NAVBAR -->
 	<nav>
 		<div class="nav_menu">
 			<div class="logo_con">
 				<a href="#"><img src="./images/logo white.png" alt="2b logo" class="logo"></a>
 			</div>
-			<div class="menu">
-				<img src="./images/sun 1.png" alt="">
-				<a href="javascript:void(0);" class="nav-icon" onclick="navMenu()">
-					<button class="menu_btn">menu</button>
-					<button class="close_btn">close</button>
-				</a>
+			<div class="menu d-flex">
+				<div class="d-flex align-items-center">
+					<img id="sun" class="theme" src="./images/sun 1.png" alt="">
+					<img id="moon" class="theme" src="./images/moon.png" alt="">
+				</div>
+				<div>
+					<a href="javascript:void(0);" class="nav-icon" onclick="navMenu()">
+						<button class="menu_btn">menu</button>
+						<button class="close_btn">close</button>
+					</a>
+				</div>
 			</div>
-			<div class="menu_con ">
+			<div class="menu_con">
 				<p class="menu_p">Learn more <a href="#">about us</a>, check out <a href="#">our work</a>, the
 					latest on <a href="#" target="_blank" rel="noopener">instagram</a>
 					and <a href="#">contact us</a></p>
 			</div>
 		</div>
 	</nav>
+	
 	<div class="fluid-container container-body">
 		<!-- section_one -->
 		<section>
@@ -43,11 +49,13 @@
 					<img class="section_one_img" src="./images/1 Illustration_project_1 sept 1.png" alt="Vector">
 				</div>
 				<div class="col-lg-12 col-md-12 section_one_des">
-					<p class="section_one_p">Connecting the dots... Creating Human centered branding Content.</p>
-					<h2 class="section_h2"> We Connect Ideas and Businesses to their market in new ways to operate
+					<p class="section_one_p">Connecting the dots... Creating Human centered branding
+						Content.</p>
+					<h2 class="section_h2"> We Connect Ideas and Businesses to their market in new
+						ways to operate
 						differently.</h2>
-					<p>Tell a friend about us on <a class="text-white" href="http://twitter.com">twitter</a>, <a
-							class="text-white" href="http://instagram.com">instagram</a>, and <a class="text-white"
+					<p>Tell a friend about us on <a class="sectone-links-social" href="http://twitter.com">twitter</a>, <a
+							class="sectone-links-social" href="http://instagram.com">instagram</a>, and <a class="sectone-links-social"
 							href="http://facebook.com">facebook</a>.
 					</p>
 				</div>
@@ -59,7 +67,8 @@
 			<div class="col-lg-6 section_two_des order-sm-2 order-md-2">
 				<img style="margin: 7em 0 0.625em 7.25em;" src="./images/sm dots.png" alt="dots">
 				<h2 class="section_h2">What We Stand For..</h2>
-				<p>We’re a dedicated team of Designers, Writers, Strategists, Business Developers and Account
+				<p class="">We’re a dedicated team of Designers, Writers, Strategists, Business
+					Developers and Account
 					Specialists who share a common passion for great design. We create extraordinary brand
 					experience
 					that help companies establish their voice and elevate their brands.</p>
@@ -74,115 +83,94 @@
 
 		<!-- section_three -->
 		<section class="section_three row">
-			<div class=" section_three_box_con col-lg-6">
-				<div class="d-flex justify-content-between" style="height: 300px;">
-					<div class="section_three_box">
-					</div>
-					<div class="section_three_box align-self-end">
-					</div>
-					<div class="section_three_box">
-					</div>
-				</div>
-				<div class="d-flex justify-content-between" style="height: 300px;">
-					<div class="section_three_box">
-					</div>
-					<div class="section_three_box align-self-end">
-					</div>
-					<div class="section_three_box">
-					</div>
-				</div>
-			</div>
-			<div class=" section_three_box_con_mobile col-sm-6">
-				<div class="d-flex justify-content-center"">
-						<div class=" section_three_box">
-				</div>
-				<div class="section_three_box">
-				</div>
-			</div>
-			<div class="d-flex justify-content-center">
-				<div class=" section_three_box">
-				</div>
-				<div class="section_three_box">
-				</div>
-			</div>
-			<div class="d-flex justify-content-center">
-				<div class=" section_three_box">
-				</div>
-				<div class="section_three_box">
-				</div>
-			</div>
-	</div>
-	<div class="col-lg-6 section_three_des">
-		<img src="./images/bg dots.png" alt="dots" class="section_three_dot_img">
-		<h2 class="section_h2">We Have Fun, Create and Repeat</h2>
-		<p>The plan is to become the most customer-centric comapny; bulild a community of strong teams achieving
-			& fulfilling dreams by building todays brand and tomorrow’s legacy. You think you have what it takes
-			to be a part of the team? <span style="color: #fff;">Then you are doing well, click on the button
-				below to see how to be a part
-				of the awe-mazing team.</span></p>
-		<a href="#" type="button" class="section_three_btn">Become a team player</a>
-	</div>
-	</section>
+			<div class="section_three_carousel col-lg-6">
 
-	<!-- section_four -->
-	<section class="section_four">
-		<h2 class="section_h2">Some Of Our Previous Works</h2>
-		<div class="row">
-			<div class="col-lg-6  ewalle">
-				<h3 class="section_h3">eWalle</h3>
-				<p>An digital solution that helps you with instant payout, helps you tract expenses and get
-					utilities
-					easily
-				</p>
-				<a href="#"><img class="section_four_ewalle_img" src="./images/ewalle.png" alt="ewalle"></a>
 			</div>
-			<div class="col-lg-6 ahora">
-				<h3 class="section_h3">Ahora.ng</h3>
-				<p>A Product that helps users make orders from thier favourite restuarants within the state.</p>
-				<a href="#"><img class="section_four_ahora_img" src="./images/ahora.png" alt="Ahora.ng"></a>
+
+
+			<div class="col-lg-6 section_three_des">
+				<img src="./images/bg dots.png" alt="dots" class="section_three_dot_img">
+				<h2 class="section_h2 ">We Have Fun, Create and Repeat</h2>
+				<p>The plan is to become the most customer-centric comapny; bulild a
+					community of strong teams achieving
+					& fulfilling dreams by building todays brand and tomorrow’s legacy. You think you have what it takes
+					to be a part of the team? <span class="section-three-span">Then you are doing well, click on the
+						button
+						below to see how to be a part
+						of the awe-mazing team.</span></p>
+				<a href="#" type="button" class="section_three_btn">Become a team player</a>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-7 tick_it">
-				<h3 class="section_h3">Tick It</h3>
-				<p>A management system that helps you track tickets sales and manage the flow.
-				</p>
-				<a href="#"><img class="section_four_tick_it_img" src="./images/tick it.png" alt="tick it"></a>
+		</section>
+
+		<!-- section_four -->
+		<section class="section_four">
+			<h2 class="section_h2">Some Of Our Previous Works</h2>
+			<div class="row">
+				<div class="col-lg-6  ewalle">
+					<h3 class="section_h3">eWalle</h3>
+					<p>An digital solution that helps you with instant payout, helps you
+						tract expenses and get
+						utilities
+						easily
+					</p>
+					<a href="#"><img class="section_four_ewalle_img" src="./images/ewalle.png" alt="ewalle"></a>
+				</div>
+				<div class="col-lg-6 ahora">
+					<h3 class="section_h3">Ahora.ng</h3>
+					<p>A Product that helps users make orders from thier favourite
+						restuarants within the state.</p>
+					<a href="#"><img class="section_four_ahora_img" src="./images/ahora.png" alt="Ahora.ng"></a>
+				</div>
 			</div>
-			<div class="col-lg-5 BankMe">
-				<h3 class="section_h3">Bank Me</h3>
-				<p>An digital solution that helps you with instant payout, helps you tract expenses and get
-					utilities
-					easily</p>
-				<a href="#"><img class="section_four_BankMe_img" src="./images/BankMe.png" alt="BankMe"></a>
+			<div class="row">
+				<div class="col-lg-7 tick_it">
+					<h3 class="section_h3">Tick It</h3>
+					<p>A management system that helps you track tickets sales and manage the
+						flow.
+					</p>
+					<a href="#"><img class="section_four_tick_it_img" src="./images/tick it.png" alt="tick it"></a>
+				</div>
+				<div class="col-lg-5 BankMe">
+					<h3 class="section_h3">Bank Me</h3>
+					<p>An digital solution that helps you with instant payout, helps you
+						tract expenses and get
+						utilities
+						easily</p>
+					<a href="#"><img class="section_four_BankMe_img" src="./images/BankMe.png" alt="BankMe"></a>
+				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 	</div>
 
 	<!-- footer -->
-	<footer id="footer" class="fluid-container">
-		<div class="footer-content ">
-			<h2 class="section_h2 mb-5">Tell Us where You Want Us...</h2>
+	<footer class="fliud-container footer">
+		<div class="footer-content">
+			<h2 class="footer-form-h2 mb-5 ">Tell Us where You Want Us...</h2>
 			<form class="form_inline" action="/">
-				<label for="name">I am </label>
-				<input type="name" id="name" placeholder="Enter full name" name="name" required>
+				<label class="" for="name">I am </label>
+				<input class="form-inline-input"  placeholder="Enter full name" 
+					required>
 
-				<label for="email">my mail is </label>
-				<input type="email" id="email" placeholder="Enter email address" name="email" required>
+				<label class="" for="email">my mail is </label>
+				<input class="form-inline-input" placeholder="Enter email address" 
+					required>
 
-				<label for="tel">and you can call me on </label>
-				<input type="tel" id="tel" placeholder="Enter phone number" name="tel" required>
+				<label class="" for="tel">and you can call me on </label>
+				<input class="form-inline-input" placeholder="Enter phone number"
+					required>
 
-				<label for="message" class="message_label">Here’s where I need you guys </label>
-				<input id="message" name="message" placeholder="Briefly explain your project" required>
+				<label class="" for="message" class="message_label">Here’s where I need you guys </label>
+				<input class="form-inline-input input-message"
+					placeholder="Briefly explain your project" required>
+				<div class="mx-auto mt-4">
+					<button type="submit" class="form_button">send</button>
+				</div>
 			</form>
-			<a href="#" type="button" class="form_button">Send</a>
 		</div>
 		<div class="row copyright d-flex justify-content-lg-between">
-			<p class="">© 2020, 2B Branding Agency</p>
-			<p class="">Follow Us - <a class="text-white" href="http://twitter.com">twitter</a>, <a class="text-white"
-					href="http://instagram.com">instagram</a>, and <a class="text-white"
+			<p>© 2020, 2B Branding Agency</p>
+			<p>Follow Us - <a class="links-social" href="http://twitter.com">twitter</a>, <a class="links-social"
+					href="http://instagram.com">instagram</a>, and <a class="links-social"
 					href="http://facebook.com">facebook</a>.
 			</p>
 		</div>
