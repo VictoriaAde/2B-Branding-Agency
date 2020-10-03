@@ -3,35 +3,33 @@
 
 :root {
 	--primary-color: #fff;
-	--bg-color: #000012;
+	--bg-color: #000;
 	--heading-color: #fff;
 	--font-color: #85899f;
-	--footer-bg: #6d6e71;
+	--sect-one-links: rgb(255, 162, 162);
+	--footer-bg: #000;
 	--footer-font: #fff;
 	--footer-form-h2: #fff;
-	--form-inline-input: #6d6e71;
-	--placeholder-color: #f9f9f9;
-	--form-font-color: #f9f9f9;
-	/*--footer-bg: #06131a;
-	 --footer-font: #85899f;
-	--footer-form-h2: #fff;
-	--form-inline-input: #06131a;
+	--form-inline-input: #000;
 	--placeholder-color: #0079b7;
-	--form-font-color: #85899f; */
-	--sect-one-links: #fff;
+	--form-font-color: #f9f9f9;
+	--menu-color: #fff;
+	--menu-btn: invert(100%);
 }
 [data-theme="light"] {
-	--bg-color: #f9f9f9f1;
+	--bg-color: rgba(255, 255, 255, 1);
 	--heading-color: #2b2b2b;
 	--font-color: #2b2b2b;
-	/* --footer-bg: #6d6e71;
-	--footer-font: #fff;
-	--footer-form-h2: #fff;
-	--form-inline-input: #6d6e71;
-	--placeholder-color: #f9f9f9;
-	--form-font-color: #f9f9f9; */
 	--primary-color: #fff;
 	--sect-one-links: #0079b7;
+	--footer-bg: rgba(255, 255, 255, 1);
+	--footer-font: #000;
+	--footer-form-h2: #000;
+	--form-inline-input: #fff;
+	--placeholder-color: #000;
+	--form-font-color: #000;
+	--menu-btn: invert(0%);
+	--menu-color:  #0079b7;
 }
 
 .theme {
@@ -51,7 +49,7 @@
 	background-color: var(--bg-color);
 }
 .fluid-container {
-	padding: 0 7em;
+	padding: 0 6em;
 }
 h1,
 h2,
@@ -82,6 +80,9 @@ p {
 	line-height: 2.0625rem;
 }
 
+#moon {
+	display: none;
+}
 .nav_menu {
 	position: fixed;
 	top: 0;
@@ -100,33 +101,37 @@ p {
 .logo-dark {
 	width: 43px;
 	height: 50.12px;
-	margin: 1.3em 0 0 7em;
+	margin: 0.5em 0 0 6em;
 }
 .logo-light {
 	width: 127px;
 	height: 111.12px;
-	margin: 0 0 0 4.5em;
+	margin: 0.4em 0 0 4.5em;
 	display: none;
+}
+.menu-menu{
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: var(--menu-color);
+	border: none;
+	background: var(--bg-color);
+	font-weight: bold;
+}
+.menu-menu:focus{
+	border: none !important;
+	outline: none;
 }
 .menu_btn {
-	width: 72px;
-	height: 90px;
-	background: #0079b7;
-	color: #fff;
-	border-radius: 0;
-	text-align: center;
 	text-transform: capitalize;
 	cursor: pointer;
-	border: none;
 	margin-left: 2em;
+	filter: var(--menu-btn);
 }
-.menu_btn:active {
-	border: none !important;
-}
-.close_btn {
+
+/* .close_btn {
 	width: 72px;
 	height: 90px;
-	background: #0079b7;
 	border-radius: 0;
 	text-align: center;
 	display: none;
@@ -135,13 +140,13 @@ p {
 	border: none;
 	color: #fff;
 	margin-left: 2em;
-}
+} */
 .close_btn:active {
 	border: none !important;
 }
 
 .menu_con.responsive {
-	transform: translateY(95%);
+	transform: translateY(97%);
 	transition: 600ms;
 	padding: 13em 3em !important;
 	z-index: 1;
@@ -277,7 +282,6 @@ p.menu_p a {
 	text-align: right;
 	padding: 0 2em 0 0;
 	margin-top: 3em;
-	padding-right: 0 !important;
 }
 .ewalle {
 	padding-right: 0 !important;
@@ -285,7 +289,6 @@ p.menu_p a {
 .ahora {
 	margin-top: 7.8em;
 	text-align: right;
-	padding-right: 0 !important;
 }
 .tick_it {
 	margin-top: 7em;
@@ -329,17 +332,22 @@ p.menu_p a {
 /*----------- footer ---------*/
 
 .footer {
-	padding: 0 6em;
+	padding: 0 6.5em;
 	background-color: var(--footer-bg);
 	color: var(--footer-font);
 }
 .footer-content {
-	text-align: center;
-	padding: 4.5em 12em;
-	width: 100%;
+	padding: 4.5em 7em;
 }
 .footer-form-h2 {
 	color: var(--footer-form-h2);
+	text-align: center;
+}
+.test {
+	filter: invert(100%);
+}
+.form-send-btn {
+	text-align: center;
 }
 .form_inline {
 	display: flex;
@@ -347,10 +355,10 @@ p.menu_p a {
 	font-family: 'Open Sans', sans-serif;
 }
 .form_inline label {
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	font-weight: 600;
 	line-height: 120%;
-	margin: 18px 0 5px 0;
+	margin: 24px 0 5px 0;
 }
 
 .form_inline input {
@@ -364,7 +372,7 @@ p.menu_p a {
 	padding-top: 1em;
 }
 .input-message {
-	width: 390px !important;
+	width: 500px !important;
 }
 .form_inline input:focus {
 	outline: none;
@@ -424,14 +432,20 @@ p.menu_p a {
 	p {
 		font-size: .9rem;
 	}
-
-	.menu {
-		margin: 0 1.5em 0 0;
+	.nav_menu {
+		display: flex;
+		justify-content: space-between;
 	}
-	.logo {
-		width: 40px;
-		height: 40px;
-		margin: 1.3em 0 0 1.4em;
+	.logo-dark {
+		width: 32px;
+		height: 42.12px;
+		margin: 0.3em 0 0 1.4em;
+	}
+	.logo-light {
+		width: 98px;
+		height: 97.12px;
+		margin: 0 0 0 0em;
+		display: none;
 	}
 	.menu_con.responsive {
 		padding: 10em 2em !important;
@@ -469,7 +483,6 @@ p.menu_p a {
 		font-size: 0.9rem;
 	}
 	.long-dots {
-		
 		display: none;
 	}
 	.section_three_box_con_mobile {
@@ -493,23 +506,15 @@ p.menu_p a {
 		padding: 0 1em !important;
 	}
 	.section_four_tick_it_img {
-		/* width: 300px;
-		height: 200px; */
 		width: 95%;
 	}
 	.section_four_ahora_img {
-		/* width: 300px;
-		height: 200px; */
 		width: 100%;
 	}
 	.section_four_ewalle_img {
-		/* width: 270px;
-		height: 400px; */
 		width: 88%;
 	}
 	.section_four_BankMe_img {
-		/* width: 270px;
-		height: 400px; */
 		width: 95%;
 	}
 }
@@ -519,23 +524,26 @@ p.menu_p a {
 	.fluid-container {
 		padding: 0 2em;
 	}
-	.menu {
-		margin: 0 2em 0 0;
-	}
-	.logo {
-		margin: 1.3em 0 0 3em;
-	}
 	.footer-content {
 		text-align: center;
 		padding: 4.5em 0;
 		width: 100%;
 	}
-	
+	.logo-dark {
+		width: 43px;
+		height: 50.12px;
+		margin: 0.5em 0 0 2em;
+	}
+	.logo-light {
+		width: 127px;
+		height: 111.12px;
+		margin: 0.4em 0 0 0em;
+		display: none;
+	}
 }
 
 /* Large devices (desktops, 992px and down) */
 @media (max-width: 992px) {
-	
 	p.menu_p {
 		font-size: 3rem;
 		padding: 0 0 0;
@@ -554,7 +562,7 @@ p.menu_p a {
 	.section_three_dot_img {
 		display: none;
 	}
-	
+
 	.footer {
 		padding: 0 2em;
 	}
@@ -594,25 +602,28 @@ p.menu_p a {
 	}
 	.BankMe p {
 		padding: 0 8em;
+		text-align: justify;
 	}
 	.tick_it p {
 		padding: 0 8em;
+		text-align: justify;
 	}
 	.ahora p {
 		padding: 0 8em;
+		text-align: justify;
 	}
 
 	.ewalle p {
 		padding: 0 8em;
+		text-align: justify;
 	}
-	
+
 	.menu {
 		margin: 0 2em 0 0;
 	}
 	.logo {
 		margin: 1.3em 0 0 3em;
 	}
-	
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
