@@ -3,6 +3,7 @@
 
 :root {
 	--primary-color: #fff;
+	--secondary-color: #0079b7;
 	--bg-color: #000;
 	--heading-color: #fff;
 	--font-color: #85899f;
@@ -11,7 +12,7 @@
 	--footer-font: #fff;
 	--footer-form-h2: #fff;
 	--form-inline-input: #000;
-	--placeholder-color: #0079b7;
+	--placeholder-color: #007ab7ea;
 	--form-font-color: #f9f9f9;
 	--menu-color: #fff;
 	--menu-btn: invert(100%);
@@ -20,13 +21,14 @@
 	--bg-color: rgba(255, 255, 255, 1);
 	--heading-color: #2b2b2b;
 	--font-color: #2b2b2b;
-	--primary-color: #fff;
+	--primary-color: #0079b7;
+	--secondary-color: #0079b7;
 	--sect-one-links: #0079b7;
-	--footer-bg: rgba(255, 255, 255, 1);
+	--footer-bg: #fff;
 	--footer-font: #000;
 	--footer-form-h2: #000;
 	--form-inline-input: #fff;
-	--placeholder-color: #000;
+	--placeholder-color: rgba(0, 0, 0, 0.787);
 	--form-font-color: #000;
 	--menu-btn: invert(0%);
 	--menu-color:  #0079b7;
@@ -63,8 +65,14 @@ h6 {
 .links-social {
 	color: var(--primary-color);
 }
+.links-social:hover{
+	color: inherit;
+}
 .sectone-links-social {
 	color: var(--sect-one-links);
+}
+.sectone-links-social:hover{
+	color: inherit;
 }
 p {
 	font-family: 'Open Sans', sans-serif;
@@ -337,18 +345,17 @@ p.menu_p a {
 	color: var(--footer-font);
 }
 .footer-content {
-	padding: 4.5em 7em;
+	position: relative;
+	padding: 4.5em 4em;
 }
 .footer-form-h2 {
 	color: var(--footer-form-h2);
 	text-align: center;
 }
-.test {
+/* .test {
 	filter: invert(100%);
-}
-.form-send-btn {
-	text-align: center;
-}
+} */
+
 .form_inline {
 	display: flex;
 	flex-flow: wrap;
@@ -385,7 +392,12 @@ p.menu_p a {
 	font-weight: 600;
 	font-size: 0.875rem;
 }
-
+.form-send-btn {
+	text-align: center;
+	position: absolute;
+	top: 90%;
+	right: 44%;
+}
 .form_button {
 	background: #0079b7;
 	border-radius: 2px;
