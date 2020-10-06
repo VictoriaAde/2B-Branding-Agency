@@ -162,11 +162,12 @@ p {
 }
 
 .menu_con.responsive {
-	transform: translateY(97%);
+	transform: translateY(95%);
 	transition: 600ms;
 	padding: 13em 3em !important;
 	z-index: 1;
 	width: 100%;
+	height: 100vh;
 	margin-right: 2em;
 }
 .menu_con {
@@ -176,6 +177,7 @@ p {
 	transform: translateY(-100%);
 	transition: all 300ms ease-in;
 	width: 100vh;
+	height: 100vh;
 	background-color: var(--bg-color);
 }
 p.menu_p {
@@ -470,18 +472,10 @@ p.menu_p a {
 		display: none;
 	}
 	.menu_con.responsive {
-		padding: 10em 2em !important;
+		padding: 7em 2em !important;
 	}
 	.menu_con {
 		transform: translateY(-279%);
-	}
-	.menu_btn {
-		width: 68px;
-		height: 90px;
-	}
-	.close_btn {
-		width: 68px;
-		height: 90px;
 	}
 	p.menu_p {
 		font-size: 2rem;
@@ -494,6 +488,7 @@ p.menu_p a {
 	.section_h2 {
 		font-size: 1.9rem;
 		margin: 0.7em 0;
+		text-align: justify;
 	}
 	.section_one_img {
 		width: none;
@@ -539,6 +534,11 @@ p.menu_p a {
 	.section_four_BankMe_img {
 		width: 95%;
 	}
+	.form-send-btn {
+		position: absolute;
+		top: 92%;
+		right: 30%;
+	}
 }
 
 /* Medium devices (tablets, 768px and down) */
@@ -575,11 +575,11 @@ p.menu_p a {
 		margin: 0 0 0;
 	}
 	.section_two_des {
-		text-align: center;
+		text-align: justify;
 	}
 	.section_three_des {
 		margin-top: 1em;
-		text-align: center;
+		text-align: justify;
 	}
 	.section_three_dot_img {
 		display: none;
