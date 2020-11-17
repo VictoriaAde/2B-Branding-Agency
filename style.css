@@ -218,6 +218,7 @@ p.menu_p a {
 .section_one {
 	padding-top: 0em;
 	text-align: center;
+	height: 100vh;
 }
 
 /* 
@@ -248,6 +249,7 @@ p.menu_p a {
 /*------------- section_two ------------*/
 .section_two {
 	margin-top: 5em;
+	height: 100vh;
 }
 
 .section_two_des {
@@ -289,6 +291,7 @@ p.menu_p a {
 .section_three {
 	margin-top: 6em;
 	position: relative;
+	height: 100vh;
 }
 
 .section_three_dot_img {
@@ -390,8 +393,8 @@ p.menu_p a {
 .section_four_ewalle_img {
 	/* width: 379px;
 	height: 582px; */
-	width: 88%;
-	margin-bottom: -9em;
+	width: 77%;
+	margin-bottom: -7em;
 }
 
 .section_four_ahora_img {
