@@ -11,10 +11,10 @@
 	--menu-btn: invert(0%);
 	--menu-color: #0079b7;
 	--sect-one-links: #000;
-	--footer-bg: #000;
+	--footer-bg: #000012;
 	--footer-font: #fff;
 	--footer-form-h2: #fff;
-	--form-inline-input: #000;
+	--form-inline-input: #000012;
 	--placeholder-color: #85899f;
 	--form-font-color: #f9f9f9;
 	--footer-para: #f9f9f986;
@@ -131,14 +131,14 @@ p {
 .logo-dark {
 	width: 39px;
 	height: 44.12px;
-	margin: 0.5em 0 0 6em;
+	margin: 0 0 0 6em;
 	display: none;
 }
 
 .logo-light {
 	width: 105px;
 	height: 99.12px;
-	margin: 0.4em 0 0 4.5em;
+	margin: 0.2em 0 0 4.5em;
 }
 
 .menu-menu {
