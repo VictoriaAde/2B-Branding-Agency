@@ -46,13 +46,3 @@ moon.addEventListener('click', function () {
 	document.querySelector("#moon").style.display = 'none';
 })
 
-// // // switching btw modes with images
-// const black = document.querySelector("section_one_black_img");
-// const white = document.querySelector("section_one_white_img");
-
-// black.addEventListener('click', function(){
-// 	document.querySelector('logo-dark').style.display = ''
-// })
-
-
-
