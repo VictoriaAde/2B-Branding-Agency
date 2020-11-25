@@ -24,8 +24,8 @@ const moon = document.querySelector("#moon");
 
 sun.addEventListener('click', function () {
 	document.documentElement.setAttribute('data-theme', 'light');
-	document.querySelector('.logo-dark').style.display = 'none';
 	document.querySelector('.logo-light').style.display = 'block';
+	document.querySelector('.logo-dark').style.display = 'none';
 
 	document.querySelector(".section_one_black_img").style.display = 'none';
 	document.querySelector(".section_one_white_img").style.display = 'block';
