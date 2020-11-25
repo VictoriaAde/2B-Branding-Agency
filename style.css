@@ -665,6 +665,11 @@ p.menu_p a {
 		margin: 0.4em 0 0 0em;
 		display: none;
 	}
+	.section_one_des {
+		margin-top: -91px;
+		padding: 0;
+	}
+	
 }
 
 /* Large devices (desktops, 992px and down) */
